@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mooncord Dev Server</title>
-    <link rel="icon" type="image/png" href="/mooncord.png">
+    <link rel="icon" type="image/png" href="mooncord.png">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <style>
         * {
@@ -1941,7 +1941,7 @@
             <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 15px;">
                 <div>
                     <h1>
-                        <img src="/mooncord.png" alt="Mooncord" class="logo">
+                        <img src="mooncord.png" alt="Mooncord" class="logo">
                         Mooncord API Dev Studio
                         <span id="connectionStatus" class="status-badge disconnected">
                             <span class="status-dot"></span>
@@ -2827,28 +2827,28 @@
                         </div>
                     </div>
                     <div style="background: var(--bg-dark); padding: 15px; border-radius: 8px; font-family: monospace; font-size: 0.9rem; color: var(--text-secondary); position: relative;">
-                        <code>git clone https://github.com/YOUR-USERNAME/mooncord-api-studio.git<br>cd mooncord-api-studio<br>npm install && npm start</code>
-                        <button onclick="navigator.clipboard.writeText('git clone https://github.com/YOUR-USERNAME/mooncord-api-studio.git\\ncd mooncord-api-studio\\nnpm install && npm start'); addNotification('success', 'Copied!', 'Commands copied to clipboard')" style="position: absolute; top: 10px; right: 10px; background: var(--primary); border: none; color: white; padding: 5px 10px; border-radius: 5px; cursor: pointer; font-size: 0.8rem;"><i class='bx bx-copy'></i></button>
+                        <code>git clone https://github.com/tubbymctubbzz/mooncord.git<br>cd mooncord<br>npm install && npm start</code>
+                        <button onclick="navigator.clipboard.writeText('git clone https://github.com/tubbymctubbzz/mooncord.git\\ncd mooncord\\nnpm install && npm start'); addNotification('success', 'Copied!', 'Commands copied to clipboard')" style="position: absolute; top: 10px; right: 10px; background: var(--primary); border: none; color: white; padding: 5px 10px; border-radius: 5px; cursor: pointer; font-size: 0.8rem;"><i class='bx bx-copy'></i></button>
                     </div>
                 </div>
 
-                <div style="background: var(--bg-dark); padding: 20px; border-radius: 12px; margin-bottom: 20px; text-align: center; border: 2px dashed var(--border);">
-                    <i class='bx bx-info-circle' style="font-size: 2rem; color: var(--primary); margin-bottom: 10px;"></i>
-                    <h4 style="color: var(--text-primary); margin-bottom: 10px;">Ready to Publish?</h4>
-                    <p style="color: var(--text-secondary); margin-bottom: 15px; font-size: 0.9rem;">Create a public repository on GitHub and share this amazing tool with the world!</p>
+                <div style="background: linear-gradient(135deg, rgba(16,185,129,0.1) 0%, rgba(5,150,105,0.1) 100%); padding: 20px; border-radius: 12px; margin-bottom: 20px; text-align: center; border: 2px solid var(--success);">
+                    <i class='bx bx-check-circle' style="font-size: 2.5rem; color: var(--success); margin-bottom: 10px;"></i>
+                    <h4 style="color: var(--text-primary); margin-bottom: 10px;">🎉 Now Public on GitHub!</h4>
+                    <p style="color: var(--text-secondary); margin-bottom: 15px; font-size: 0.9rem;">This project is open source and available for everyone to use, fork, and contribute to!</p>
                     <div style="display: flex; gap: 10px; justify-content: center; flex-wrap: wrap;">
-                        <span style="background: var(--bg-card); padding: 8px 15px; border-radius: 8px; font-size: 0.85rem; color: var(--text-secondary);">📝 Add README.md</span>
-                        <span style="background: var(--bg-card); padding: 8px 15px; border-radius: 8px; font-size: 0.85rem; color: var(--text-secondary);">⚖️ Include LICENSE</span>
-                        <span style="background: var(--bg-card); padding: 8px 15px; border-radius: 8px; font-size: 0.85rem; color: var(--text-secondary);">🏷️ Add Topics</span>
+                        <span style="background: rgba(16,185,129,0.2); padding: 8px 15px; border-radius: 8px; font-size: 0.85rem; color: var(--success); border: 1px solid var(--success);">⭐ Star the Repo</span>
+                        <span style="background: rgba(16,185,129,0.2); padding: 8px 15px; border-radius: 8px; font-size: 0.85rem; color: var(--success); border: 1px solid var(--success);">🔀 Fork & Customize</span>
+                        <span style="background: rgba(16,185,129,0.2); padding: 8px 15px; border-radius: 8px; font-size: 0.85rem; color: var(--success); border: 1px solid var(--success);">🤝 Contribute</span>
                     </div>
                 </div>
 
                 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px;">
-                    <button class="btn-primary" style="width: 100%;" onclick="window.open('https://github.com/new', '_blank')">
-                        <i class='bx bx-plus-circle'></i> Create Repository
+                    <button class="btn-primary" style="width: 100%;" onclick="window.open('https://github.com/tubbymctubbzz/mooncord', '_blank')">
+                        <i class='bx bxl-github'></i> View Repository
                     </button>
-                    <button class="btn-secondary" style="width: 100%;" onclick="window.open('https://docs.github.com/en/get-started/quickstart/create-a-repo', '_blank')">
-                        <i class='bx bx-book-open'></i> GitHub Guide
+                    <button class="btn-secondary" style="width: 100%;" onclick="window.open('https://github.com/tubbymctubbzz/mooncord/issues', '_blank')">
+                        <i class='bx bx-bug'></i> Report Issue
                     </button>
                 </div>
             </div>
